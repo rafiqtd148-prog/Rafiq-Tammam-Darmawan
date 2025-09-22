@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const scrollTo = (selector: string) => {
@@ -21,7 +20,7 @@ const Header = () => {
   return (
     <header className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 p-4 rounded-2xl bg-gradient-to-r from-space-pastel-1 via-space-pastel-2 to-space-pastel-3 shadow-lg m-4 text-white">
       <div className="flex items-center gap-3">
-        <img src="https://picsum.photos/seed/logo/64/64" alt="Harmony Space Logo" className="h-14 w-14 rounded-xl bg-white p-1" />
+        <img src="https://i.imgur.com/vE84117.png" alt="Harmony Space Logo" className="h-14 w-14 rounded-xl" />
         <div>
           <div className="font-bold text-lg">Harmony Space</div>
           <div className="text-xs text-white/90">Your Concert, Your Space, Your Harmony</div>

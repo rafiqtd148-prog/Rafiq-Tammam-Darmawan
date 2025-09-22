@@ -73,19 +73,20 @@ const LiveSection = () => {
 
   return (
     <Card id="live" className="my-4">
-      <h3 className="text-xl font-bold mb-4 text-space-text">🎥 Live Streaming</h3>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-3">
+      <h3 className="text-xl font-bold text-space-text">🎥 Live Streaming</h3>
+      <p className="text-md text-space-muted mt-1 mb-4">Hearts2Hearts special perform Red Flavor (Original by Red Velvet) @ TMA 2025 (The Fact Music Awards)</p>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <div className="lg:col-span-2">
           <div className="bg-black rounded-lg h-64 md:h-96 flex items-center justify-center text-white overflow-hidden">
             <video ref={videoRef} controls playsInline className="w-full h-full object-cover">
-              <source src="/sample-live.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/8JpHZZD.mp4" type="video/mp4" />
               Browser Anda tidak mendukung video.
             </video>
           </div>
           <div className="flex gap-2 mt-3 flex-wrap">
             <button onClick={startMockLive} className="bg-space-pastel-1 border-none px-4 py-2 rounded-lg text-blue-900 font-bold cursor-pointer hover:opacity-90 transition-opacity">Mulai Live (mock)</button>
             <button onClick={stopMockLive} className="bg-transparent border-2 border-space-text/10 px-4 py-2 rounded-lg text-space-text cursor-pointer hover:bg-space-text/5 transition-colors">Hentikan Live (mock)</button>
-            <a href="/sample-live.mp4" download className="inline-flex items-center gap-2 bg-transparent border-2 border-space-text/10 px-4 py-2 rounded-lg text-space-text cursor-pointer hover:bg-space-text/5 transition-colors no-underline">
+            <a href="https://i.imgur.com/8JpHZZD.mp4" download className="inline-flex items-center gap-2 bg-transparent border-2 border-space-text/10 px-4 py-2 rounded-lg text-space-text cursor-pointer hover:bg-space-text/5 transition-colors no-underline">
               <span>⬇️</span> Download Replay
             </a>
           </div>

@@ -1,4 +1,3 @@
-
 import { Song, Post, News, Release, SingerCandidate, Concert } from '../types';
 
 export const sampleSongs: Song[] = [
@@ -16,13 +15,13 @@ export const samplePosts: Post[] = [
 ];
 
 export const sampleNews: News[] = [
-  {id:201,title:'Festival Musim Panas Kembali',img:'https://picsum.photos/seed/n1/600/400',excerpt:'Festival musim panas akan menghadirkan 30 artis internasional...'},
-  {id:202,title:'Interview eksklusif dengan Rina Nova',img:'https://picsum.photos/seed/n2/600/400',excerpt:'Rina berbicara tentang inspirasi album terbarunya...'},
-  {id:203,title:'Tren live streaming tahun 2025',img:'https://picsum.photos/seed/n3/600/400',excerpt:'Bagaimana platform streaming mengubah industri musik...'},
+  {id:201,title:'Miliaran Cinta Yovie Widianto – Andi Rianto Berkonser',img:'https://i.imgur.com/IRJ8SbE.jpeg',excerpt:"Enjoy Live Experience bersama ImaginAction akan menyelenggarakan konser berskala besar bertajuk 'Miliaran Cinta Yovie Widianto – Andi Rianto Berkonser' pada Minggu, 21 September 2025 di Plenary Hall, Jakarta Convention Center (JCC"},
+  {id:202,title:'comeback mendatang',img:'https://i.imgur.com/nJPjhvI.jpeg',excerpt:"Hearts2Hearts akan comeback pada 20 oktober mendatang dengan mini album berjudul focus"},
+  {id:203,title:'New song Pretty Please!',img:'https://i.imgur.com/bEvVDQ2.jpeg',excerpt:"Lagu baru Hearts 2 Hearts berjudul 'Pretty Please' akan rilis pada 24 Oktober dan telah diajukan oleh KBS Broadcasting Standards"},
 ];
 
 export const sampleReleases: Release[] = [
-  {id:301,artist:'Rina Nova',title:'Single: Heartbeat',date:'2025-10-12'},
+  {id:301,artist:'Hearts 2 Hearts',title:'Mini Album: Focus',date:'2025-10-20'},
   {id:302,artist:'The Echoes',title:'EP: Sunset Session',date:'2025-11-01'},
   {id:303,artist:'DJ Lumen',title:'Remix Pack',date:'2025-12-05'},
 ];
@@ -35,7 +34,7 @@ export const singerCandidates: SingerCandidate[] = [
 ];
 
 export const concerts: Concert[] = [
-  {id:401,title:'Rina Nova — Live in Jakarta',date:'2025-10-12',venue:'Online • Jakarta',lineup:['Rina Nova'],tickets:'Rp199.000',recording:'/sample-live.mp4'},
+  {id:401,title:'Rina Nova — Live in Jakarta',date:'2025-10-12',venue:'Online • Jakarta',lineup:['Rina Nova'],tickets:'Rp199.000',recording:'https://i.imgur.com/8JpHZZD.mp4'},
   {id:402,title:'The Echoes — Sunset Session',date:'2025-11-25',venue:'Online',lineup:['The Echoes','Midnight Bloom'],tickets:'Rp99.000',recording:'/sample-echoes.mp4'},
   {id:403,title:'DJ Lumen — Neon Night',date:'2025-12-05',venue:'Online • Rave Stage',lineup:['DJ Lumen'],tickets:'Rp149.000',recording:'/sample-lumen.mp4'},
 ];
